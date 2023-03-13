@@ -4,7 +4,7 @@
 2. 
 ### 低EMC设计要点
 0. 采用晶圆倒装工艺的芯片，选择把Ci集成到内部的dcdc芯片。
-***1.*** 降低高di/dt回路面积。注意不是流过电感回路的面积，因为流过电感的回路电流连续变化，不是高di/dt回路。  
+1. 降低高di/dt回路面积。注意不是流过电感回路的面积，因为流过电感的回路电流连续变化，不是高di/dt回路。  
 <div align="center"><image src="https://github.com/Potatotatotato/myLearningNotes/blob/main/DCDC_PCB/Images/Buck_schematicDigram.jpg" width=300></div>  
 
 2. SW走线不能太窄，因为要通过大电流。芯片SW引脚与电感之间的距离应尽可能近一点。
