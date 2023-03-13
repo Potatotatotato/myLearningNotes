@@ -24,7 +24,7 @@
   
 # 升压（BOOST）电路
 ### 常用芯片
-1. XL6019
+1. XL6008/XL6019
 2. SX1308/MT3608(丝印B628)
 ### 低EMC设计要点
 0. 采用晶圆倒装工艺的芯片，选择把Ci集成到内部的dcdc芯片。
@@ -45,6 +45,11 @@
 14. 电容的选型应注意：耐压稍微高一点，容值稍微大一点。MLCC电容存在`直流偏压现象`，即在MLCC两端施加直流电压，其容值会降低。  
 ### 参考视频
 [唐老师讲电赛——电源大师8—BOOST升压电路EMI与EMC设计，BOOST升压电路PCB layout宝典](https://www.bilibili.com/video/BV1xU4y1A7GU/?spm_id_from=333.788&vd_source=e6cfc8577ccc9621465b12d49ef2c1c3)  
+  
+# 升降压（BUCK and BOOST）电路
+### 常用芯片
+1. 
+### 原理图
   
 # 开关电源提升效率的方法
 1. 选择RDS(on)较小的MOS管
