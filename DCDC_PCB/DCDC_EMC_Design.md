@@ -18,9 +18,14 @@
 11. 电感之间的焊盘间距尽量大一些。
 12. 电感尽量采用固态电感。
 13. 一般来说电容类型的选用应参考`MLCC > 钽电容 > 固态电容 > 高频低阻电解电容 > 普通铝电解电容`，但也不排除某些芯片就要用“垃圾”电容。
-14. 电容的选型应注意：耐压稍微高一点，容值稍微大一点。MLCC电容存在直流偏压现象，即在MLCC两端施加直流电压，其容值会降低。
+14. 电容的选型应注意：耐压稍微高一点，容值稍微大一点。MLCC电容存在直流偏压现象，即在MLCC两端施加直流电压，其容值会降低。  
+### 提升效率的方法
+1. 减小MOS管栅极电阻
+2. 选择RDS(on)较小的MOS管
+3. 选择导通电压小的续流二极管，选择反向恢复时间短的续流二极管
+4. 对于电感，选择铁损小的磁芯或者降低电感上的电流变化量以`减小铁损`；选择线圈直流电阻`LDR`小的电感以`减小铜损`  
 ### 参考视频
-[唐老师讲电赛——电源大师6——BUCK 降压电路降低EMI与EMC设计，开关电源PCB layout宝典](https://www.bilibili.com/video/BV1ef4y1n7x1/?spm_id_from=333.788&vd_source=e6cfc8577ccc9621465b12d49ef2c1c3)  
+[唐老师讲电赛——电源大师6——BUCK 降压电路降低EMI与EMC设计，开关电源PCB layout宝典](https://www.bilibili.com/video/BV1ef4y1n7x1/?spm_id_from=333.788&vd_source=e6cfc8577ccc9621465b12d49ef2c1c3)   
   
 # 升压（BOOST）电路
 ### 常用芯片
@@ -45,6 +50,4 @@
 14. 电容的选型应注意：耐压稍微高一点，容值稍微大一点。MLCC电容存在`直流偏压现象`，即在MLCC两端施加直流电压，其容值会降低。  
 ### 参考视频
 [唐老师讲电赛——电源大师8—BOOST升压电路EMI与EMC设计，BOOST升压电路PCB layout宝典](https://www.bilibili.com/video/BV1xU4y1A7GU/?spm_id_from=333.788&vd_source=e6cfc8577ccc9621465b12d49ef2c1c3)  
-  
-#升降压（BUCK and BOOST）电路
   
